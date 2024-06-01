@@ -1,0 +1,20 @@
+:root {
+  --primary-50: #f9e2ed;
+  --primary-100: #fdbad8;
+  --primary-400: #f62583;
+  --primary-dark: hsl(333, 82%, 40%);
+  --secondary: hsl(220, 59%, 18%);
+  --gray-500: hsl(217, 15%, 35%);
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --light-color: hsl(219, 17%, 98%);
+  --dark-color: #050c15;
+  --body-bg: #f8f9fa;
+  --body-color: #050c15;
+  --border-color: #dee2e6;
+  --font-size-base: 1rem;
+  --line-height-base: 1.5;
+  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+}

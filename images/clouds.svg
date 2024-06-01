@@ -1,0 +1,21 @@
+<svg width="1440" height="474" viewBox="0 0 1440 474" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_108_449)">
+<circle cx="11.2891" cy="234.836" r="234.529" transform="rotate(65.9995 11.2891 234.836)" fill="#FDBAD8"/>
+<circle cx="255.064" cy="412.532" r="189.78" transform="rotate(65.9995 255.064 412.532)" fill="#FDBAD8"/>
+<circle cx="524.717" cy="486.638" r="180.614" transform="rotate(65.9995 524.717 486.638)" fill="#FDBAD8"/>
+<circle cx="-11.3548" cy="269.341" r="234.529" transform="rotate(65.9995 -11.3548 269.341)" fill="#132549"/>
+<circle cx="232.42" cy="447.038" r="189.78" transform="rotate(65.9995 232.42 447.038)" fill="#132549"/>
+<circle cx="502.074" cy="521.144" r="180.614" transform="rotate(65.9995 502.074 521.144)" fill="#132549"/>
+<circle cx="234.529" cy="234.529" r="234.529" transform="matrix(-0.406744 0.913542 0.913542 0.406744 1245.85 -36.2861)" fill="#FDBAD8"/>
+<circle cx="189.78" cy="189.78" r="189.78" transform="matrix(-0.406744 0.913542 0.913542 0.406744 1024.75 200.491)" fill="#FDBAD8"/>
+<circle cx="180.614" cy="180.614" r="180.614" transform="matrix(-0.406744 0.913542 0.913542 0.406744 759.746 286.699)" fill="#FDBAD8"/>
+<circle cx="234.529" cy="234.529" r="234.529" transform="matrix(-0.406744 0.913542 0.913542 0.406744 1268.5 -1.78027)" fill="#132549"/>
+<circle cx="189.78" cy="189.78" r="189.78" transform="matrix(-0.406744 0.913542 0.913542 0.406744 1047.4 234.997)" fill="#132549"/>
+<circle cx="180.614" cy="180.614" r="180.614" transform="matrix(-0.406744 0.913542 0.913542 0.406744 782.391 321.205)" fill="#132549"/>
+</g>
+<defs>
+<clipPath id="clip0_108_449">
+<rect width="1440" height="474" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "ws": "node-sass -w css/style.scss css/style.css",
+    "dev": "npx tailwindcss -i ./css/tailwind.css -o ./css/output.css --watch"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
