@@ -1,20 +1,36 @@
 :root {
-  --primary-50: #f9e2ed;
-  --primary-100: #fdbad8;
-  --primary-400: #f62583;
-  --primary-dark: hsl(333, 82%, 40%);
-  --secondary: hsl(220, 59%, 18%);
-  --gray-500: hsl(217, 15%, 35%);
-  --success-color: #28a745;
-  --info-color: #17a2b8;
-  --warning-color: #ffc107;
-  --danger-color: #dc3545;
-  --light-color: hsl(219, 17%, 98%);
-  --dark-color: #050c15;
-  --body-bg: #f8f9fa;
-  --body-color: #050c15;
-  --border-color: #dee2e6;
-  --font-size-base: 1rem;
-  --line-height-base: 1.5;
-  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  --primary-50: #faf5ff;
+  --primary-100: hsl(270, 100%, 95.5%);
+  --primary-200: hsl(270, 100%, 91.8%);
+  --primary-300: hsl(270, 97.4%, 85.1%);
+  --primary-400: hsl(270, 95.2%, 75.3%);
+  --primary-500: hsl(270, 91%, 65.1%);
+  --primary-600: hsl(270, 81.3%, 55.9%);
+  --primary-700: hsl(270, 71.7%, 47.1%);
+  --primary-800: hsl(270, 67.2%, 39.4%);
+  --primary-900: #521c87;
+  --primary-950: #360764;
+
+  --neutral-50: hsl(220, 0%, 98%);
+  --neutral-100: hsl(220, 0%, 95.9%);
+  --neutral-200: hsl(220, 0%, 91%);
+  --neutral-300: hsl(220, 0%, 83.9%);
+  --neutral-400: hsl(220, 0%, 64.9%);
+  --neutral-500: hsl(220, 0%, 46.1%);
+  --neutral-600: hsl(220, 0%, 34.1%);
+  --neutral-700: hsl(220, 0%, 26.7%);
+  --neutral-800: hsl(220, 0%, 12%);
+  --neutral-900: rgb(19, 19, 19);
+  --neutral-950: hsl(220, 0%, 5%);
+
+  --mtg-primary-50: #f1f8fe;
+  --mtg-primary-400: #3374c5;
+  --mtg-text: #333f47;
+  --mtg-text-dark: #1b1f22;
+
+  --text-color: var(--primary-50);
+  --texr-color-invert: var(--neutral-900);
+
+  --horizontal-padding: 3rem;
+  --max-width: 1440px;
 }
