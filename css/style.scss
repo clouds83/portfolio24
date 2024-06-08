@@ -54,7 +54,7 @@
     height: 4rem;
   }
 
-  &-mtg {
+  &-case {
     background-color: transparent;
     border-color: white;
   }
@@ -80,18 +80,10 @@
   transition: all 0.4s ease;
 }
 
-.guar-image {
+.react-image {
   height: 60%;
-  right: -15rem;
-  filter: grayscale(100%);
-}
-
-.case-guar {
-  &:hover {
-    cursor: not-allowed;
-    // add filter blur on the line below this comment
-    filter: blur(1px);
-  }
+  right: -12rem;
+  transition: all 0.4s ease;
 }
 
 .portfolio-card {
@@ -101,7 +93,17 @@
     opacity: 0;
   }
 
-  &:hover:not(.case-guar) {
+  &:hover {
+    &.mtg-case {
+      background-color: var(--mtg-primary-400);
+    }
+
+    &.react-case {
+      background-color: var(--mydimdim-primary-400);
+    }
+  }
+
+  &:hover {
     background-color: var(--neutral-900);
     transform: scale(1.03);
 
@@ -114,6 +116,11 @@
     .mtg-image {
       height: 88%;
       right: -4.75rem;
+    }
+
+    .react-image {
+      height: 61%;
+      right: -11.75rem;
     }
   }
 }
@@ -144,6 +151,13 @@
   .sticky-bg {
     backdrop-filter: blur(0.25rem);
     background-color: var(--mtg-primary-400);
+  }
+}
+
+#my-dimdim {
+  .sticky-bg {
+    backdrop-filter: blur(0.25rem);
+    background-color: var(--mydimdim-primary-400);
   }
 }
 
@@ -260,6 +274,16 @@
   .mtg-delivery-div {
     width: 100%;
   }
+
+  #my-dimdim {
+    .hero-container {
+      gap: 3rem;
+
+      > div {
+        padding: 0;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -343,6 +367,12 @@
 
     .w-half {
       width: 100%;
+    }
+  }
+
+  #my-dimdim {
+    .hero-container {
+      gap: 2rem;
     }
   }
 }

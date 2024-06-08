@@ -28,6 +28,11 @@
   --mtg-text: #333f47;
   --mtg-text-dark: #1b1f22;
 
+  --mydimdim-primary-50: hsl(239, 87%, 97%);
+  --mydimdim-primary-400: hsl(239, 75%, 65%);
+  --mydimdim-text: hsl(239, 16%, 24%);
+  --mydimdim-text-dark: hsl(239, 11%, 12%);
+
   --text-color: var(--primary-50);
   --texr-color-invert: var(--neutral-900);
 

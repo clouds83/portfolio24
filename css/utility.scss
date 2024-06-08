@@ -488,6 +488,10 @@
   }
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 // mtg start
 
 #mtg {
@@ -512,4 +516,30 @@
 
 .mtg-bg-primary-light {
   background-color: var(--mtg-primary-50);
+}
+
+// my dimdim start
+
+#my-dimdim {
+  color: var(--mtg-text);
+}
+
+.mydimdim-text {
+  color: var(--mtg-text);
+}
+
+.mydimdim-text-dark {
+  color: var(--mtg-text-dark);
+}
+
+.mydimdim-bg-primary {
+  background-color: var(--mydimdim-primary-400);
+}
+
+.mydimdim-text-primary {
+  color: var(--mydimdim-primary-400);
+}
+
+.mydimdim-bg-primary-light {
+  background-color: var(--mydimdim-primary-50);
 }
