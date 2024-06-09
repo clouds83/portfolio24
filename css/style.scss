@@ -77,16 +77,16 @@
 }
 
 .mtg-image {
-  right: -5rem;
+  right: -15%;
   height: 85%;
   width: auto;
   transition: all 0.4s ease;
 }
 
 .react-image {
+  right: -35%;
   height: 60%;
   width: auto;
-  right: -12rem;
   transition: all 0.4s ease;
 }
 
@@ -118,13 +118,13 @@
     }
 
     .mtg-image {
+      right: -14%;
       height: 88%;
-      right: -4.75rem;
     }
 
     .react-image {
       height: 61%;
-      right: -11.75rem;
+      right: -34%;
     }
   }
 }
