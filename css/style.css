@@ -49,6 +49,9 @@
     background-color: transparent;
     border-color: white; }
 
+.hero-bg {
+  width: auto; }
+
 .hero-img-1 {
   height: 75%;
   width: auto;
